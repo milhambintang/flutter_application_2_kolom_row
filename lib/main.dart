@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2_kolom_row/detail_screen.dart';
+import 'package:flutter_application_2_kolom_row/screens/detail_screen.dart';
 
 void main() {
   runApp(const MainApp());
