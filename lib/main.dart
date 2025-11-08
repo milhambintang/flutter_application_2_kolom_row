@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2_kolom_row/screens/detail_screen.dart';
+import 'package:flutter_application_2_kolom_row/screens/main_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,8 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: DetailScreen()
-    );
+    return MaterialApp(home: MainScreen());
   }
 }
