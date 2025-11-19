@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+// import 'package:flutter/widgets.dart';
 import 'package:flutter_application_2_kolom_row/models/wisata_model.dart';
 
 var wisataList = [
@@ -37,7 +37,7 @@ WisataModel(
     isFavorite: false,
   ),
   WisataModel(
-    nama: 'images/pulau_kemaro.jpeg',
+    nama: 'Pulau Kemaro',
     alamat:
         'Jl. Pulau Kemaro, Kec. Ilir Timur II, Kota Palembang, Sumatera Selatan',
     jamBuka: '07.00 - 18.00 WIB',
@@ -144,7 +144,7 @@ WisataModel(
     instagram: '@museum_balaputradewa',
     deskripsi:
         'Museum Balaputra Dewa di Palembang adalah museum etnografi yang menampilkan sejarah dan tradisi Provinsi Sumatera Selatan dari zaman prasejarah hingga kolonialisme, dengan koleksi yang mencakup artefak prasejarah, peninggalan Kerajaan Sriwijaya (termasuk replika prasasti), koleksi Kesultanan Palembang seperti songket, dan daya tarik utama berupa Rumah Limas di halaman belakang.',
-    gambarUtama: 'image/museum_balaputera_dewa.png',
+    gambarUtama: 'images/museum_balaputera_dewa.png',
     gambarGaleri: [
       'https://cdn.antaranews.com/cache/1200x800/2023/04/30/20230430_214806.jpg',
       'https://cdn.antaranews.com/cache/1200x800/2024/11/15/5003C651-1122-441F-9ED3-82B4527717D0.jpeg',
@@ -154,7 +154,7 @@ WisataModel(
     isFavorite: false,
   ),
   WisataModel(
-    nama: 'Taman Wisata Alam Punti Kayu',
+    nama: 'Taman Wisata Punti Kayu',
     alamat:'Jl. Kolonel H. Burlian, Km. 6,5, Karya Baru, Alang-Alang Lebar, Kota Palembang, Sumatera Selatan',
     jamBuka: '08.00 - 17.00 WIB',
     instagram: '@tamanpuntikayu_palembang',
