@@ -70,13 +70,92 @@ class _DetailScreenState extends State<DetailScreen> {
                     )
                   ],
                 ),
+              ),
+
+              // INFORMASI ALAMAT, JAM BUKA, INSTAGRAM (ROW DENGAN ICON)
+              // ALAMAT
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Icon(
+                      Icons.location_on,
+                      color: Colors.red,
+                      size: 16,
+                    ),
+                    Text(
+                      "Alamat",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold
+                      ),
+                    ),
+                    const SizedBox(width: 24),
+                    Text(': '),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(widget.wisataModel.alamat),
+                    ),
+                  ],
+                ),
+              ),
+      
+              // JAM BUKA
+               Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Icon(
+                      Icons.access_time,
+                      color: Colors.blue,
+                      size: 16,
+                    ),
+                    SizedBox(
+                      width: 65,
+                      child: Text(
+                        "Jam Buka",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 24),
+                    Text(': '),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(widget.wisataModel.jamBuka),
+                    ),
+                  ],
+                ),
+              ),
+      
+              // INSTAGRAM
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Icon(
+                      Icons.access_time,
+                      color: Colors.red,
+                      size: 16,
+                    ),
+                    Text(
+                      "Jam Buka",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold
+                      ),
+                    ),
+                    const SizedBox(width: 24),
+                    Text(': '),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(widget.wisataModel.jamBuka),
+                    ),
+                  ],
+                ),
               )
-      
-          // ALAMAT
-      
-          // JAM BUKA
-      
-          // INSTAGRAM
       
           // DESKRIPSI
       
